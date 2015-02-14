@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/winnerscreen"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mainmenu"
+        android:layout_alignBottom="@+id/mainmenu"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="52dp"
+        android:text="@string/replay" />
+
+    <Button
+        android:id="@+id/mainmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:layout_marginEnd="49dp"
+        android:layout_toStartOf="@+id/replay"
+        android:text="@string/Home" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:shadowColor="#00ccff"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="@string/Result"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/highString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="@string/highScoreFinalAct"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/action_bar"
+        android:textColorLink="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/highTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/highString"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:shadowColor="@color/colorWhite"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="@string/highScores"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorHint="@color/grey"
+        android:textColorLink="@color/green"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/highString"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:shadowColor="@color/colorWhite"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="@string/zero"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorLink="@color/green"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scoreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="@string/yourScoreText"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/action_bar"
+        android:textColorLink="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+</RelativeLayout>

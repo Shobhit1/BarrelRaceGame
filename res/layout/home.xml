@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/start_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_start_button1"
+        android:contentDescription="@string/startLabel" />
+ <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:textColor="@color/black"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textSize="25sp"
+        android:text="@string/startLabel" >
+    </TextView>
+
+   
+   <Button 
+        android:id = "@+id/buttonStart"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/startLabel"
+        android:drawableStart="@drawable/ic_start_button"
+        android:textColor="@color/black"
+       />    
+    
+   <ImageButton
+        android:id="@+id/highscore"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_highscore" 
+        android:contentDescription="@string/highScores"  />
+    
+   <ImageButton
+        android:id="@+id/settings_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_settings_button"
+        android:contentDescription="@string/action_settings" />
+    -->
+
+</LinearLayout>
