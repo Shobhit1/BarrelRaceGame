@@ -19,7 +19,8 @@ A. _Just run run the code in Eclipse.
 
 ## Contributing changes
 
-- _Email : parthtrivedi2492@gmail.com_
+- _Email : shobhit657@gmail.com
+- 
 - _"Please open github issues, emails can get messy"_
 
 ## License
